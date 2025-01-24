@@ -1,0 +1,17 @@
+dist: focal
+language: node_js
+node_js:
+- stable
+sudo: false
+script:
+- npm test
+branches:
+  only:
+  - "/^\\d+\\.\\d+/"
+deploy:
+  provider: npm
+  email: manager@mathjax.org
+  api_key:
+    secure: LPHWQ6sru682JxPEnRt1rV/1oKJvJBejIx+fsFy2a67ZJQQEqNtW61QPBGq4NDNLnV89QiC+ImH13UyWcvaPEcfncXhyqSDpPtCBQN9btIU8MSSHGM51vahWZtbRonR5/She/hjrEPqEAclYKXx0BNb3SrSgRQNHVjaONTQNmiM=
+  on:
+    tags: true

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(29, 150, 151);
+	background: linear-gradient(0deg, rgba(29, 150, 151, 1) 16%, rgba(14, 85, 158, 1) 86%);
+    margin: 0;
+    padding: 20px;
+    color: #5b5b5b;
+}
+
+
+.navegacion {
+    border-radius: 6px;
+    background-image: linear-gradient(135deg, #adcbf7 0%, #c3cfe2 100%);
+}
+
+.teoria{
+    display: flex;
+}
+@media(max-width:800px) {
+    .teoria{
+    flex-wrap: wrap;
+    }
+    .piso {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.043);
+}
+
+.piso {
+    display: flex;
+    flex-direction: row;
+}
+
+.qa-container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qa-container p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.qa-container strong {
+    color: #007BFF;
+}
+
+.qa-container p:nth-child(odd) {
+    background-color: #d3dee2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.qa-container p:nth-child(even) {
+    padding-left: 20px;
+    border-left: 4px solid #007BFF;
+}

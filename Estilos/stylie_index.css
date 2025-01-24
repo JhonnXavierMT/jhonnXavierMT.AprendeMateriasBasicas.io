@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.navegacion {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.anititulo:hover{
+ background-color: rgba(0, 0, 0, 0.095);
+ border-radius: 10%;
+}
+.fondo_img {
+    color: aliceblue;
+    background-image: url(imagenes/astronauta.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+}
+
+.fondo_letras {
+    background-color: #00000063;
+    width: 100%;
+    height: 120vh;
+}
+
+.tituloc {
+    padding-right: 30%;
+}
+
+.titulo {
+    font-size: 60px;
+    padding: 25px;
+	margin: 0px;
+	word-wrap: break-word; /* Permite que las palabras largas se dividan y ajusten al contenedor */
+	overflow-wrap: break-word; /* Similar a word-wrap, garantiza que el contenido no se desborde */
+	width: 100%; /* Asegura que el h2 ocupe todo el ancho del contenedor */
+	box-sizing: border-box; /* Asegura que el padding se incluya en el ancho */
+	margin-bottom: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.subtitulo {
+    padding-right: 40%;
+}
+
+@media(max-width:800px) {
+    .tituloc {
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 60px;
+    }
+
+    .subtitulo {
+        padding-right: 4%;
+    }
+
+    .piso {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:400px) {
+
+    .tituloc {
+        text-align: center;
+    }
+    .titulo {
+        font-size: 60px;
+    }
+
+    .subtitulo {
+        text-align: justify;
+    }
+
+    .subtitulo h5 {
+        font-size: 22px;
+    }
+    .fondo_img {
+        height: 135vh;
+    }
+}
+
+.boton_clase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.but_img {
+    background-image: url(imagenes/fisica3.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.but_img2 {
+    background-image: url(imagenes/incialfisica.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.but_img3 {
+    background-image: url(imagenes/fisica4.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.but_img4 {
+    background-image: url(imagenes/medio.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ani:hover {
+    font-size: 30px;
+    height: 190px;
+    width: 190px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.043);
+}
+
+.piso {
+    display: flex;
+    flex-direction: row;
+}
+.lista{
+    text-decoration: none;
+}
