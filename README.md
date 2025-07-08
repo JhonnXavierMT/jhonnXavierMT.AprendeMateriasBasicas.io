@@ -10,7 +10,7 @@
     <tr>
       <td>1</td>
       <td>Materias basicas Umsa</td>
-      <td><a href="[https://materiasbasicasumsa.zeabur.app/]">Ver página</a></td>
+      <td><a href="https://materiasbasicasumsa.zeabur.app/">Ver página</a></td>
     </tr>
   </tbody>
 </table>
