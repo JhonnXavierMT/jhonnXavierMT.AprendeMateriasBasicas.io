@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">ELECTROLAB</a>
@@ -22,8 +21,8 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    
-                    <li class="nav-item anititulo" >
+
+                    <li class="nav-item anititulo">
                         <a class="nav-link active" aria-current="page"
                             href="Juego de preguntas/menu_exam_de_cultura.php">
                             JUGAR</a>
@@ -33,11 +32,10 @@
                             aria-expanded="false">
                             INICIAL
                         </a>
-                        <ul class="dropdown-menu ">
+                        <ul class="dropdown-menu">
                             <li style="padding-left: 10px;"> PRIMER PARCIAL</li>
                             <li><a class="dropdown-item" href="inicial.html">Fundamentos Matematicos</a></li>
-                            <li><a class="dropdown-item" href="electricidad_general.html">Estudiar Electricidad
-                                    general</a></li>
+                            <li><a class="dropdown-item" href="electricidad_general.html">Estudiar Electricidad general</a></li>
                             <li><a class="dropdown-item" href="estudiar_fisica.html">Estudiar Fisica</a></li>
                             <li><a class="dropdown-item" href="estudiar_calculo.html">Estudiar Calculo</a></li>
                             <li><a class="dropdown-item" href="estidudiar_algebra.html">Estudiar algebra</a></li>
@@ -191,7 +189,7 @@
             <div>
                 <h2 class="m-4 mb-2">ELECTROLAB</h2>
                 <h5 class="fw-light m-4 mt-2 mb-0">
-                    Realizado con todo el cariño del mundo por Jhonn X. Mamani Trujillo, con los de conocimientos
+                    Realizado por Jhonn X. Mamani Trujillo, con los de conocimientos
                     adquiridos del INCOS EL ALTO,
                     para los estudiantes y docentes de todo el mundo.
                 </h5>
