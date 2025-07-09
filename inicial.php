@@ -13,7 +13,7 @@
 
 <body>
 
-    <?php include_once("header.php") ?>
+     <?php include_once("template/header.php") ?>
 
     <section class="Teoria_de_Fisica">
         <div class="p-4 pb-0">
@@ -255,7 +255,7 @@
         </div>
     </section>
 
-    <?php include_once("footer.php") ?>
+     <?php include_once("template/footer.php") ?>
     <!-- jQuery y Popper.js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

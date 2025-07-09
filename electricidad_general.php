@@ -13,7 +13,7 @@
 
 <body>
 
-    <?php include_once("header.php") ?>
+    <?php include_once("template/header.php") ?>
     <section class="Teoria_de_Fisica">
         <div class="qa-container">
             <h2>Estudiar para el juego de Electricidad</h2>
@@ -147,7 +147,7 @@
     </section>
 
 
-    <?php include_once("footer.php") ?>
+    <?php include_once("template/footer.php") ?>
 
     <!-- jQuery y Popper.js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

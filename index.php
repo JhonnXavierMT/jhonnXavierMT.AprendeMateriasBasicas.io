@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);//<-- tipado estricto ?>
+<?php declare(strict_types=1);//<-- tipado estricto
+require_once("functions.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-    <?php include_once("header.php") ?>
+     <?php templates("header") ?>
 
     <section class="portada">
         <div class="fondo_img">
@@ -120,7 +122,8 @@
         </div>
     </section>
 
-    <?php include_once("footer.php") ?>
+     <?php templates("footer") ?>
+     
     <!-- jQuery y Popper.js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
