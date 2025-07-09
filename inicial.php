@@ -13,87 +13,13 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navegacion">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">ELECTROLAB</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav ">
-                    
-                    <li class="nav-item anititulo" >
-                        <a class="nav-link active" aria-current="page"
-                            href="Juego de preguntas/menu_exam_de_cultura.php">
-                            JUGAR</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            INICIAL
-                        </a>
-                        <ul class="dropdown-menu ">
-                            <li style="padding-left: 10px;"> PRIMER PARCIAL</li>
-                            <li><a class="dropdown-item" href="inicial.html">Fundamentos Matematicos</a></li>
-                            <li><a class="dropdown-item" href="electricidad_general.html">Estudiar Electricidad
-                                    general</a></li>
-                            <li><a class="dropdown-item" href="estudiar_taller_elec.html">Estudiar Taller de Electricidad general</a></li>
-                            <li><a class="dropdown-item" href="estudiar_fisica.html">Estudiar Fisica</a></li>
-                            <li><a class="dropdown-item" href="estudiar_lab_fis.html">Estudiar laboratorio de Fisica</a></li>
-                            <li><a class="dropdown-item" href="estudiar_calculo.html">Estudiar Calculo</a></li>
-                            <li><a class="dropdown-item" href="estidudiar_algebra.html">Estudiar algebra</a></li>
-                            <li><a class="dropdown-item" href="estudiar_ingles.html">Estudiar Ingles</a></li>
-                            <li><a class="dropdown-item" href="Juego de preguntas/menu_exam_de_cultura.php">JUGAR DE UNA
-                                    VEZ -(°-°)/</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            INTERMEDIO
-                        </a>
-                        <ul class="dropdown-menu navegacion">
-                            <li style="padding-left: 10px;">SEGUNDO PARCIAL</li>
-                            <li><button class="dropdown-item miBoton">Estudiar Electricidad general</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Taller de Electricidad general </button>
-                            </li>
-                            <li><button class="dropdown-item miBoton">Estudiar Fisica</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar laboratorio de Fisica</a></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Calculo</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar algebra</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Ingles</button></li>
-                            <li><button class="dropdown-item miBoton">JUGAR DE UNA VEZ -('-')/</button></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            AVANZADO
-                        </a>
-                        <ul class="dropdown-menu navegacion">
-                            <li style="padding-left: 10px;">TERCER PARCIAL</li>
-                            <li><button class="dropdown-item miBoton">Estudiar Electricidad general</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Taller de Electricidad general </button>
-                            </li>
-                            <li><button class="dropdown-item miBoton">Estudiar Fisica</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar laboratorio de Fisica</a></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Calculo</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar algebra</button></li>
-                            <li><button class="dropdown-item miBoton">Estudiar Ingles</button></li>
-                            <li><button class="dropdown-item miBoton">JUGAR DE UNA VEZ -(*-*)/</button></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include_once("header.php") ?>
 
     <section class="Teoria_de_Fisica">
         <div class="p-4 pb-0">
             <h1>La Fisica</h1>
             <p>Es la ciencia natural que se centra en las propiedades e intracciones de la materia la energia, el
-                esapcio y el tiempo. Los Componenetes fundamentales del universo forman parte de su campo de accion.
+                espacio y el tiempo. Los Componenetes fundamentales del universo forman parte de su campo de accion.
             </p>
             <div class="p-2 teoria pb-0">
                 <div class="d-flex justify-content-center align-items-center">
@@ -208,7 +134,7 @@
                    
                 </tr>
             </table>
-            <h2>Leyes de Exponenetes Aplicados a la Fisica</h2>
+            <h2>Leyes de Exponenetes</h2>
                 <table>
                     <tr>
                         <th>Nombre de la Ley</th>
@@ -329,47 +255,7 @@
         </div>
     </section>
 
-    <footer class="pb-5 ">
-        <div class="piso">
-            <div>
-                <h2 class="m-4 mb-2">Fisicalab</h2>
-                <h5 class="fw-light m-4 mt-2 mb-0">
-                    Realizado por Jhonn X. Mamani Trujillo, con los de conocimientos adquiridos del INCOS EL ALTO,
-                    para los estudiantes y docentes de todo el mundo.
-                </h5>
-            </div>
-            <div class="">
-                <h3 class=" m-4 mb-2">Sitio</h3>
-                <h5 class="fw-light m-4 mt-0 mb-0">Obtén una visión general de nuestro sitio, accede a los contenidos
-                    principales y descubre qué podemos ofrecerte.</h5>
-            </div>
-            <div>
-                <h3 class=" m-4 mb-2">Contanto</h3>
-                <h5 class="fw-light m-4 mt-0 mb-0">¿Quieres saber quiénes somos? Si tienes dudas, sugerencias o detectas
-                    problemas en el sitio, estaremos encantados de oírte al numero.75821008</h5>
-            </div>
-            <div>
-                <h3 class=" m-4 mb-0">Diccionario</h3>
-                <h5 class="fw-light m-4 mt-0 mb-0">
-                    Consulta nuestro índice analítico de Estudio para una rápida definición de términos.</h5>
-            </div>
-        </div>
-        <div class="m-2">
-            <div class="d-flex justify-content-end p-2 "><img src="Estilos/imagenes/bolivia.jpg" alt="" width="100px"
-                    height="70">
-            </div>
-            <h5 class="fw-light m-4 mt-0 " style="text-align: end;">Sin fines de lucro por el momento he realizado este programa web .</h5>
-            <div class="d-flex justify-content-end">
-                <a href="#"
-                    style="padding-left: 10px;color:black;padding-right:5px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;">Cookies</a>|
-                <a href="#"
-                    style="padding-left: 10px;color:rgb(0, 0, 0);padding-right:5px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;">Privacidad</a>|
-                <a href="#"
-                    style="padding-left: 10px;color:rgb(0, 0, 0);padding-right:5px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;">Condiciones
-                    de servicio</a>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php") ?>
     <!-- jQuery y Popper.js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

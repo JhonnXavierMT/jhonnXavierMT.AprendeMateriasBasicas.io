@@ -1,30 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    background: rgb(29, 150, 151);
-	background: linear-gradient(0deg, rgba(29, 150, 151, 1) 16%, rgba(14, 85, 158, 1) 86%);
+    background: linear-gradient(0deg, rgba(29, 150, 151, 1) 16%, rgba(14, 85, 158, 1) 86%);
     margin: 0;
     padding: 20px;
     color: #5b5b5b;
 }
 
 
+
 .navegacion {
-    
+
     border-radius: 6px;
     background-image: linear-gradient(135deg, #adcbf7 0%, #c3cfe2 100%);
 }
-.teoria{
-    display: flex;
+
+.teoria {
+    margin: 10px auto;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding: 20px;
 }
+
 @media(max-width:800px) {
-    .teoria{
-    flex-wrap: wrap;
+    .teoria {
+        flex-wrap: wrap;
     }
+
     .piso {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
 }
 
 footer {
@@ -37,6 +42,7 @@ footer {
 }
 
 .qa-container {
+   
     max-width: 800px;
     margin: 10px auto;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);

@@ -161,9 +161,9 @@ if (isset($_POST['btn_reinicio'])) {
 
             <script>
                 Swal.fire({
-                    title: '<?php echo $alertTitle; ?>',
-                    text: '<?php echo $alertText; ?>',
-                    icon: '<?php echo $alertIcon; ?>',
+                    title: '<?= $alertTitle; ?>',
+                    text: '<?= $alertText; ?>',
+                    icon: '<?= $alertIcon; ?>',
                     <?php if ($alertType == 'success') { ?>
                         showConfirmButton: <?php echo $showConfirmButton; ?>,
                         timer: <?php echo $timer; ?>
