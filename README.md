@@ -20,8 +20,6 @@
     - JavaScript.
     - bootstrap.
     - libreria MathJax.
-
+- 🍕 Ver la Pagina web
+    - [Ver página](https://materiasbasicasumsa.zeabur.app/)
 ---
-| Nº | Nombre del proyecto      | Enlace                                  |
-|----|---------------------------|------------------------------------------|
-| 1  | Materia Basicas         | [Ver página](https://materiasbasicasumsa.zeabur.app/)     |
